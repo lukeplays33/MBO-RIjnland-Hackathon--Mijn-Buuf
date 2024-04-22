@@ -8,7 +8,7 @@
     <meta name="description" content="Een formulier/vragenlijst">
     <meta name="keywords"
         content="Gezondheid, Wonen, Sociale contacten, Werken, Taal">
-    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/index.css">
     <link rel="icon" href="images/icon.png" type="image/x-icon">
     <title>Mijn Buuf Formulier</title>
 </head>

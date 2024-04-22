@@ -1,4 +1,4 @@
-<link rel="stylesheet" href="/css/style.css">
+
 <section class="divider">
     <article id="tiles"></article>
     <article class="logo">
