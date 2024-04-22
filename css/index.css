@@ -1,3 +1,5 @@
-body {
-    background-image:url('../assetds/images/image (3).png');
+body, html {
+    background-image:url('../assetds/images/OIG3.jpeg');
+    background-color :var(--primary); 
+    background-color :var(--primaryTextColor);
 }
