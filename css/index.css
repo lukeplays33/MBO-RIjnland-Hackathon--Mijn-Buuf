@@ -1,4 +1,5 @@
 body, html {
     background-image:url('../assetds/images/OIG3.jpeg');
-    filter: blur(3px);
+    background-color :var(--primary); 
+    background-color :var(--primaryTextColor); 
 }
