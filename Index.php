@@ -13,6 +13,6 @@
 </head>
 <body> 
 
-<script src='./js/index.js'></script>
+<script type='module' src='./js/index.js'></script>
 </body>
 </html>
