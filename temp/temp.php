@@ -24,6 +24,8 @@
     <footer>
         <?php include '../footer.php'; ?>
     </footer>
+
+    <script type='module' src='../js/index.js'></script>
 </body>
 
 </html>
