@@ -7,7 +7,7 @@
     <meta name="description" content="">
     <meta name="keywords" content="">
     <meta name="author" content="Luke, Noah">
-    <link rel="icon" type="image/x-icon" href="./assets/54947833 (1).png">
+    <link rel="icon" type="image/x-icon" href="./assetds/images/OIG4.jpeg">
     <link rel="stylesheet" href="./css/index.css">
     <title>Mijn Buuf - Progressie vragen lijst</title>
 </head>
