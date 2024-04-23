@@ -7,9 +7,9 @@
     <nav>
         <ul class="menu">
             <li><a href="../../index.php" class="no-decoration">HOME</a></li>
-            <li><a href="../../pages/menu/index.php" class="no-decoration">MEER INFO</a></li>
-            <li><a href="../../pages/item/index.php" class="no-decoration"></a>CONTACT</li>
-            <li><a href="../../pages/arrangementen/index.php" class="no-decoration">CREDITS</a></li>
+            <li><a href="#" class="no-decoration">MEER INFO</a></li>
+            <li><a href="#" class="no-decoration"></a>CONTACT</li>
+            <li><a href="#" class="no-decoration">CREDITS</a></li>
         </ul>
     </nav>
     <div class="menu-toggle">&#9776;</div>
