@@ -16,12 +16,12 @@
     <article>
         <a href="#">Oficiele Website</a>
         <a href="#">Meer info</a>
-        <a href="../../pages/vacatures/index.php">Enquete</a>
+        <a href="#">Enquete</a>
     </article>
 
     <article>
-        <a href="../../pages/aboutus/index.php">Feedback</a>
-        <a href="../../pages/gallery/index.php">Gallery</a>
+        <a href="#">Feedback</a>
+        <a href="#">Gallery</a>
         <a href="#">Thema Info</a>
     </article>
 </section>
