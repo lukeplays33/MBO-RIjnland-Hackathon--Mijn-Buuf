@@ -16,6 +16,19 @@ body, html {
     text-align: left;
 }
 
+.item1 { grid-area: header; }
+.item2 { grid-area: menu; }
+.item3 { grid-area: main; }
+.item4 { grid-area: right; }
+.item5 { grid-area: footer; }
+
+.grid-container {
+  grid-template-areas:
+    'header header header header header header'
+    'menu main main main right right'
+    'menu footer footer footer footer footer';
+}
+
 .grid-column {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -28,7 +41,7 @@ body, html {
     text-align: left;
 }
 
-.grid-column > p {
+.grid-row > article > p {
     background-color: #9f26c4;
     text-decoration: #1CA653;
 }

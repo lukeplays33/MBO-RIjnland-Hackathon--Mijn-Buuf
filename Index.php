@@ -29,6 +29,7 @@
             <article>
                 <h1>Start de vragenlijst</h1>
                 <p>In de volgende pagina`s zullen wij u een paar vragen stellen over hoe het gaat met u in Nederland. <br> Deze lijst zullen we om de 3 maanden geven aan u om te kijken hoe het progress gaat.</p>
+            </article>
             <article class='grid-column'>
                 <img src='assetds/images/OIG3.jpeg' alt='OIG'>
             </article>
