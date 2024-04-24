@@ -14,18 +14,36 @@
 </head>
 
 <body>
+    <script type='module' src='../js/index.js'></script>
     <header>
         <?php include 'header.php'; ?>
     </header>
     <main>
-        <!-- de main zal hier plaats vinden -->
+    <section class='grid-row'>
+            <article class='grid-column'>
+                <h2>Welkom bij Mijn Buuf</h2>
+                <p>Wij zijn een platform dat mensen helpt met het vinden van de juiste hulp en ondersteuning in hun
+                    buurt. <br> Wij willen graag weten hoe het met u gaat en of wij u kunnen helpen met het vinden van de juiste
+                    hulp en ondersteuning.</p>
+            </article>
+            <article>
+                <h2>Start de vragenlijst</h2>
+                <p>In de volgende pagina`s zullen wij u een paar vragen stellen over hoe het gaat met u in Nederland. <br> Deze lijst zullen we om de 3 maanden geven aan u om te kijken hoe het progress gaat.</p>
+            </article>
+</section>
+        <section>
+            <article class='grid-column'>
+                <img src='assetds/images/OIG3.jpeg' alt='OIG'>
+            </article>
+            <article>
+                <h2>Start de vragenlijst</h2>
+            </artifcle>
+        </section>
     </main>
 
     <footer>
         <?php include 'footer.php'; ?>
     </footer>
-
-    <script type='module' src='../js/index.js'></script>
 </body>
 
 </html>

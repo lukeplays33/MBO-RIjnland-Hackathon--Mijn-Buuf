@@ -100,31 +100,6 @@ x-title {
 }
 
 
-.grid-row {
-    display: grid;
-    grid-template-rows: 1fr 1fr;
-    grid-gap: 20px;
-    background-color: #C83D26;
-    border-radius: 10px;
-    width: 45%;
-    margin: 0px;
-    align-items: center;
-    text-align: left;
-}
-
-
-
-.grid-column {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 20px;
-    background-color: #9f26c4;
-    border-radius: 10px;
-    width: 45%;
-    margin: 0px;
-    align-items: center;
-    text-align: left;
-}
 
 
 #footerItems {
