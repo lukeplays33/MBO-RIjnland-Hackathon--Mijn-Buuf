@@ -18,56 +18,52 @@
         <?php include '../../header.php'; ?>
     </header>
     <main>
-        <form class='vragenlijst' action="../veiligheid/index.php" method="POST">
+        <form class='vragenlijst' action="../taal/index.php" method="POST">
             <h2>Gezondheid</h2>
             <article class='vraag-row'>
-            <p>1. Vraag 1?</p>
-            <input type="radio" name="vraag1" value="keuze1"> Keuze 1
-            <input type="radio" name="vraag1" value="keuze2"> Keuze 2
-            <input type="radio" name="vraag1" value="keuze3"> Keuze 3
-            <input type="radio" name="vraag1" value="keuze4"> Keuze 4
-            <input type="radio" name="vraag1" value="keuze5"> Keuze 5
+            <p>1. Voel je je over het algemeen gezond en energiek? </p>
+            <input type="radio" name="Ja" value="keuze1"> Ja
+            <input type="radio" name="Nee" value="keuze2"> Nee
             </article>
 
             <article class='vraag-row'>
-            <p>2. Vraag 2?</p>
-            <input type="radio" name="vraag2" value="keuze1"> Keuze 1
-            <input type="radio" name="vraag2" value="keuze2"> Keuze 2
-            <input type="radio" name="vraag2" value="keuze3"> Keuze 3
-            <input type="radio" name="vraag2" value="keuze4"> Keuze 4
-            <input type="radio" name="vraag2" value="keuze5"> Keuze 5
+            <p>2. Heb je toegang tot gezondheidszorg wanneer dat nodig is?</p>
+            <input type="radio" name="Ja" value="keuze1"> Ja
+            <input type="radio" name="Nee" value="keuze2"> Nee
             </article>
 
             <article class='vraag-row'>
-            <p>3. Vraag 3?</p>
-            <input type="radio" name="vraag3" value="keuze1"> Keuze 1
-            <input type="radio" name="vraag3" value="keuze2"> Keuze 2
-            <input type="radio" name="vraag3" value="keuze3"> Keuze 3
-            <input type="radio" name="vraag3" value="keuze4"> Keuze 4
-            <input type="radio" name="vraag3" value="keuze5"> Keuze 5
+            <p>3. Hoe beoordeel je je algehele gezondheid op een schaal van 1 tot 5?</p>
+            <input type="radio" name="1" value="keuze1">  1
+            <input type="radio" name="2" value="keuze2">  2
+            <input type="radio" name="3" value="keuze3">  3
+            <input type="radio" name="4" value="keuze4">  4
+            <input type="radio" name="5" value="keuze5">  5
             </article>
 
             <article class='vraag-row'>
-            <p>4. Vraag 4?</p>
-            <input type="radio" name="vraag4" value="keuze1"> Keuze 1
-            <input type="radio" name="vraag4" value="keuze2"> Keuze 2
-            <input type="radio" name="vraag4" value="keuze3"> Keuze 3
-            <input type="radio" name="vraag4" value="keuze4"> Keuze 4
-            <input type="radio" name="vraag4" value="keuze5"> Keuze 5
+            <p>4. Hoe vaak zoek je medische hulp?</p>
+            <input type="radio" name="1" value="keuze1"> Nooit
+            <input type="radio" name="2" value="keuze2"> Zelden
+            <input type="radio" name="3" value="keuze3"> Af en toe
+            <input type="radio" name="4" value="keuze4"> Vaak
+            <input type="radio" name="5" value="keuze5"> Altijd
             </article>
 
             <article class='vraag-row'>
-            <p>5. Vraag 5?</p>
-            <input type="radio" name="vraag5" value="keuze1"> Keuze 1
-            <input type="radio" name="vraag5" value="keuze2"> Keuze 2
-            <input type="radio" name="vraag5" value="keuze3"> Keuze 3
-            <input type="radio" name="vraag5" value="keuze4"> Keuze 4
-            <input type="radio" name="vraag5" value="keuze5"> Keuze 5
+            <p>5. Hoe vaak doe je aan lichamelijke activiteit per week?</p>
+            <input type="radio" name="vraag5" value="keuze1">  Nooit
+            <input type="radio" name="vraag5" value="keuze2">  Zelden
+            <input type="radio" name="vraag5" value="keuze3">  Af en toe
+            <input type="radio" name="vraag5" value="keuze4">  Regelmatig
+            <input type="radio" name="vraag5" value="keuze5">  Dagelijks
             </article>
 
             <br><br>
-            <input type="submit" value="Verder">
+            <input class='verder' type="submit" value="Verder">
+            <input class ='terug' type="submit" value="Terug">
         </form>
+
     </main>
 
     <footer>
