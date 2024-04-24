@@ -69,3 +69,9 @@ nav li {
     align-items: center;
     margin-left:33px;
 }
+
+x-title {
+    margin-left:98px !important;
+
+    padding:0px !important;
+}

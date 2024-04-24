@@ -4,6 +4,11 @@
             <img id='headerLogo' src="../../assetds/images/OIG4.jpeg" alt="Logo">
         </a>
     </section>
+    <section>
+        <article>
+            <x-title></x-title>
+        </article>
+    </section>
     <!--<nav>
         <ul class="menu">
             <li><a href="../../index.php" class="no-decoration">HOME</a></li>
