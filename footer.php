@@ -14,7 +14,7 @@
     </article>
 
     <article>
-        <a href="#">Oficiele Website</a>
+        <a href="mijnbuuf.nl">Oficiele Website</a>
         <a href="#">Meer info</a>
         <a href="#">Enquete</a>
     </article>

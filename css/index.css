@@ -144,7 +144,7 @@ x-title {
 }
 
 #footerItems article {
-    color: rgb(181, 6, 6);
+    color: white;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
