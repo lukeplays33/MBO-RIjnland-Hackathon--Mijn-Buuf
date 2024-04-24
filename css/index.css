@@ -1,3 +1,4 @@
+
 body, html {
     background-image:url('../assetds/images/image (3).png');
     background-color :var(--primary); 
@@ -21,7 +22,7 @@ header {
     padding: 20px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    align-items: flex-end; /* Corrected value */
+    align-items: flex-end;
     min-height: 15px !important;
     margin: 8px;
     border-radius: 10px !important;
@@ -74,4 +75,15 @@ x-title {
     margin-left:98px !important;
 
     padding:0px !important;
+}
+
+.vragenlijst {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    align-items: center;
+    background-color: var(--primary);
+    border-radius: 10px;
+    margin-left: 475px;
+    padding-left: 100px;
+    padding-right: 100px;
 }
