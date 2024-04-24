@@ -1,14 +1,11 @@
 
-<section class="divider">
-    <article id="tiles"></article>
-    <article class="logo">
-        <a href="/" class="">
-            <img src="../../images/icon.png" alt="Logo" style="margin-left: -16px;">
-        </a>
-    </article>
-</section>
 
 <section id="footerItems">
+<article class="logo">
+        <a href="/" class="">
+            <img src="assetds/images/OIG4.jpeg" alt="Logo" style="margin-left: -16px;">
+        </a>
+    </article>
     <article>
       Wilhelmina van Pruisenweg 55, 2595 AN Den Haag
     </article>
