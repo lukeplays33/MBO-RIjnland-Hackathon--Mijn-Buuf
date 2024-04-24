@@ -1,10 +1,10 @@
 
 <section class="logo">
         <a href="/" class="">
-            <img src="../../images/headerLogo.png" alt="Logo" style="margin-left: 53px;width: 190px;">
+            <img id='headerLogo' src="../../assetds/images/OIG4.jpeg" alt="Logo">
         </a>
     </section>
-    <nav>
+    <!--<nav>
         <ul class="menu">
             <li><a href="../../index.php" class="no-decoration">HOME</a></li>
             <li><a href="#" class="no-decoration">MEER INFO</a></li>
@@ -23,3 +23,4 @@
         });
     });
 </script>
+ -->
