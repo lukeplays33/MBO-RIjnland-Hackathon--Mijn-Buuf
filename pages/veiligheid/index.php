@@ -19,7 +19,7 @@
     </header>
     <main>
         <form class='vragenlijst' action="../veiligheid/index.php" method="POST">
-            <h2>Gezondheid</h2>
+            <h2>Veiligheid</h2>
             <article class='vraag-row'>
             <p>1. Voelt u zich thuis of in de buurt veilig?</p>
             <input type="radio" name="Ja" value="keuze1"> Ja
@@ -53,6 +53,8 @@
 
             <br><br>
             <input class='verder' type="submit" value="Verder">
+        </form>
+        <form class='vragenlijst' action="../sociale contacten/index.php" method="POST">
             <input class ='terug' type="submit" value="Terug">
         </form>
 

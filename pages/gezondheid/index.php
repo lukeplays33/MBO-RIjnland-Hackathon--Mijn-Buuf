@@ -61,8 +61,11 @@
 
             <br><br>
             <input class='verder' type="submit" value="Verder">
-            <input class ='terug' type="submit" value="Terug">
         </form>
+        <form class='vragenlijst' action="../../index.php" method="POST">
+            <input class ='terug' type="submit" value="Home">
+        </form>
+
 
     </main>
 

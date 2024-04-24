@@ -58,8 +58,11 @@
 
             <br><br>
             <input class='verder' type="submit" value="Verder">
+        </form>
+        <form class='vragenlijst' action="../taal/index.php" method="POST">
             <input class ='terug' type="submit" value="Terug">
         </form>
+
 
     </main>
 

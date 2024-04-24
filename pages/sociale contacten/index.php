@@ -19,7 +19,7 @@
     </header>
     <main>
         <form class='vragenlijst' action="../veiligheid/index.php" method="POST">
-            <h2>Gezondheid</h2>
+            <h2>Sociale Contacten</h2>
             <article class='vraag-row'>
             <p>1. Heb je vrienden gemaakt binnen 'Mijn Buuf'?</p>
             <input type="radio" name="Ja" value="keuze1"> Ja
@@ -52,8 +52,11 @@
 
             <br><br>
             <input class='verder' type="submit" value="Verder">
+        </form>
+        <form class='vragenlijst' action="../werken/index.php" method="POST">
             <input class ='terug' type="submit" value="Terug">
         </form>
+
 
     </main>
 
