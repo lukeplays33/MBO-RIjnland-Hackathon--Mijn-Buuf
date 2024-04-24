@@ -22,21 +22,21 @@
     <section class='grid-row'>
             <article class='grid-column'>
                 <h2>Welkom bij Mijn Buuf</h2>
-                <p>Wij zijn een platform dat mensen helpt met het vinden van de juiste hulp en ondersteuning in hun
-                    buurt. <br> Wij willen graag weten hoe het met u gaat en of wij u kunnen helpen met het vinden van de juiste
-                    hulp en ondersteuning.</p>
+                <p>Wij zijn een platform dat mensen <br> helpt met het vinden van de juiste hulp en ondersteuning.
+                     <br> Wij willen graag weten hoe het met u gaat en<br> of wij u kunnen helpen met het vinden van de juiste
+                    hulp en ondersteuning. We ondersteunen u met bijvoordeeld: financiele hulp, <br>gezondheidszorg/afspraken, uw veiligheid, <br> uw leefomstandigheden etc.</p>
             </article>
             <article>
                 <h2>Start de vragenlijst</h2>
-                <p>In de volgende pagina`s zullen wij u een paar vragen stellen over hoe het gaat met u in Nederland. <br> Deze lijst zullen we om de 3 maanden geven aan u om te kijken hoe het progress gaat.</p>
+                <p>We hebben de vragenlijst verdeeld in zes thema's die ons helpen <br> een beter beeld te krijgen van uw omstandigheden. <br> Elk thema bevat vijf vragen die <br> variëren van veiligheid en voorzieningen <br> tot de algehele tevredenheid over uw ervaring hier. <br> Door je antwoorden op deze vragen kunnen we <br> samen de sterke punten identificeren en gebieden ontdekken waar we kunnen verbeteren. </p>
             </article>
-</section>
-        <section>
-            <article class='grid-column'>
+            <article class='image'>
                 <img src='assetds/images/OIG3.jpeg' alt='OIG'>
             </article>
-            <article>
-                <h2>Start de vragenlijst</h2>
+</section>
+        <section class='margin-position'>
+        <article>
+                <h2><a href="pages/gezondheid/index.php">Start de vragenlijst!</a></h2>
             </artifcle>
         </section>
     </main>

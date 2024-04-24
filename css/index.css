@@ -135,10 +135,50 @@ footer .logo {
 
 
 img {
-    width: 190px;
-    height: 220px;
+    width: 400px;
+    height: 430px;
     margin-top: 10px;
     margin-left: 10px;
     border-radius: 10px;
     
+}
+
+.grid-row > article > p {
+    background-color: var(--primary);
+    border-radius: 10px;
+}
+
+.grid-row > article > h2 {
+    background-color: var(--primary);
+    border-radius: 10px;
+    margin-left : 100px;
+}
+
+.margin-position {
+    margin-left: 1050px;
+    margin-bottom: -20px !important;
+}
+
+.grid-row {
+    margin-left: 150px;
+    margin-bottom: 8px;
+}
+
+.grid-column {
+    margin-left: -50px;
+    margin-bottom: 8px;
+}
+
+.grid-column > h2 {
+    background-color: var(--primary);
+    border-radius: 10px;
+    margin-left : 150px;
+}
+
+p {
+    font-size: larger;
+}
+
+.margin-position > article > h2 {
+    background-color: var(--primary);
 }
