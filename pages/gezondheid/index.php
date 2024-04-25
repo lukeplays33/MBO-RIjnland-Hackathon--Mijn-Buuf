@@ -21,24 +21,30 @@
         <form class='vragenlijst' action="../taal/index.php" method="POST">
             <h2>Gezondheid</h2>
             <article class='vraag-row'>
-            <p>1. Voel je je over het algemeen gezond en energiek? </p>
-            <input type="radio" name="Ja" value="keuze1"> Ja
-            <input type="radio" name="Nee" value="keuze2"> Nee
+            <p>1. Voel je je gezond en energiek? </p>
+            <input type="radio" name="1" value="keuze1">  Helemaal niet
+            <input type="radio" name="2" value="keuze2">  Nee
+            <input type="radio" name="3" value="keuze3">  Neutraal
+            <input type="radio" name="4" value="keuze4">  Soms
+            <input type="radio" name="5" value="keuze5">  Ja
             </article>
 
             <article class='vraag-row'>
             <p>2. Heb je toegang tot gezondheidszorg wanneer dat nodig is?</p>
-            <input type="radio" name="Ja" value="keuze1"> Ja
-            <input type="radio" name="Nee" value="keuze2"> Nee
+            <input type="radio" name="1" value="keuze1">  Helemaal niet
+            <input type="radio" name="2" value="keuze2">  Nee
+            <input type="radio" name="3" value="keuze3">  Neutraal
+            <input type="radio" name="4" value="keuze4">  Soms
+            <input type="radio" name="5" value="keuze5">  Ja
             </article>
 
             <article class='vraag-row'>
             <p>3. Hoe beoordeel je je algehele gezondheid op een schaal van 1 tot 5?</p>
-            <input type="radio" name="1" value="keuze1">  1
-            <input type="radio" name="2" value="keuze2">  2
-            <input type="radio" name="3" value="keuze3">  3
-            <input type="radio" name="4" value="keuze4">  4
-            <input type="radio" name="5" value="keuze5">  5
+            <input type="radio" name="1" value="keuze1">  1(zeer slecht)
+            <input type="radio" name="2" value="keuze2">  2(slecht)
+            <input type="radio" name="3" value="keuze3">  3(neutraal)
+            <input type="radio" name="4" value="keuze4">  4(goed)
+            <input type="radio" name="5" value="keuze5">  5(zeer goed)
             </article>
 
             <article class='vraag-row'>
@@ -62,7 +68,7 @@
             <br><br>
             <input class='verder' type="submit" value="Verder">
         </form>
-        <form class='vragenlijst' action="../../index.php" method="POST">
+        <form class='vragenlijst1' action="../../index.php" method="POST">
             <input class ='terug' type="submit" value="Home">
         </form>
 
