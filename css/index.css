@@ -341,3 +341,15 @@ p {
     color: var(--secondairyTextColor) !important;
 
 }
+
+
+.p{
+    font-size: large;
+    border-radius: 10px;
+    background-color: #D2DB90;
+    margin: auto 10px;
+}
+
+.p > h2 {
+    background-color: var(--primary);
+}

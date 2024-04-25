@@ -22,6 +22,6 @@
     <article>
         <a href="#">Feedback</a>
         <a href="#">Gallery</a>
-        <a href="#">Thema Info</a>
+        <a href="pages/credits/index.php">Credits</a>
     </article>
 </section>
