@@ -107,9 +107,20 @@ x-title {
 
 .verder {
     margin-left: 250px;
-    margin-top: 10px;
+    margin-top: 0px;
+    border-radius: 10px;
+    background-color: white;
+    height: 35px;
+    width: 75px;
 }
 
+.terug {
+    margin-left: -20px;
+    margin-top: -35px;
+    border-radius: 10px;
+    height: 35px;
+    width: 75px;
+}
 
 
 

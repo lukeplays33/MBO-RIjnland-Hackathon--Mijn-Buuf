@@ -66,7 +66,7 @@
             </article>
 
             <br><br>
-            <input class='verder' type="submit" value="Verder">
+            <button class="verder" onclick="Opslaan">Verder</button>
         </form>
         <form class='vragenlijst1' action="../taal/index.php" method="POST">
             <input class ='terug' type="submit" value="Terug">
@@ -80,6 +80,7 @@
     </footer>
 
     <script type='module' src='../../js/index.js'></script>
+    <script type='module' src='../../js/reader.js'></script>
 </body>
 
 </html>
