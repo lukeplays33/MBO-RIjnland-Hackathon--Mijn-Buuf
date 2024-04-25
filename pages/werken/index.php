@@ -21,19 +21,26 @@
         <form class='vragenlijst' action="../sociale contacten/index.php" method="POST">
             <h2>Werken</h2>
             <article class='vraag-row'>
-            <p>1. Heb je toegang tot essentiële voorzieningen zoals water, elektriciteit en verwarming?</p>
-            <input type="radio" name="Ja" value="keuze1"> Ja
-            <input type="radio" name="Nee" value="keuze2"> Nee
+            <p>1. Ben je tevreden met je huidige werk/leerervaring bij 'Mijn Buuf'?</p>
+            <input type="radio" name="1" value="keuze1">  Helemaal niet
+            <input type="radio" name="2" value="keuze2">  Nee
+            <input type="radio" name="3" value="keuze3">  Een beetje
+            <input type="radio" name="4" value="keuze4">  Ja
+            <input type="radio" name="5" value="keuze5">  Zeker
+            </article>
             </article>
 
             <article class='vraag-row'>
-            <p>2. Voel je je bekwaam en zelfverzekerd in de vaardigheden die je leert?</p>
-            <input type="radio" name="Ja" value="keuze1"> Ja
-            <input type="radio" name="Nee" value="keuze2"> Nee
+            <p>2. Voel je je bekwaam en zelfverzekerd in de skills die je leert?</p>
+            <input type="radio" name="1" value="keuze1">  Helemaal niet
+            <input type="radio" name="2" value="keuze2">  Nee
+            <input type="radio" name="3" value="keuze3">  Een beetje
+            <input type="radio" name="4" value="keuze4">  Soms
+            <input type="radio" name="5" value="keuze5">  Ja
             </article>
 
             <article class='vraag-row'>
-            <p>3. Hoe nuttig vind je de vaardigheden die je leert voor je toekomstige werk?</p>
+            <p>3. Hoe nuttig vind je de skills die je leert voor je toekomstige werk? </p>
             <input type="radio" name="1" value="keuze1"> Helemaal niet nuttig
             <input type="radio" name="2" value="keuze2"> Niet nuttig
             <input type="radio" name="3" value="keuze3"> Neutraal
@@ -42,13 +49,16 @@
             </article>
 
             <article class='vraag-row'>
-            <p>4. Ervaar je ondersteuning van 'Mijn Buuf' bij het vinden van betaald werk of stages?</p>
-            <input type="radio" name="Ja" value="keuze1"> Ja
-            <input type="radio" name="Nee" value="keuze2"> Nee
+            <p>4. Krijg je hulp van 'Mijn Buuf' bij het vinden van werk of stages?</p>
+            <input type="radio" name="1" value="keuze1">  Helemaal niet
+            <input type="radio" name="2" value="keuze2">  Nee
+            <input type="radio" name="3" value="keuze3">  Soms
+            <input type="radio" name="4" value="keuze4">  Vaak
+            <input type="radio" name="5" value="keuze5">  Ja
             </article>
 
             <article class='vraag-row'>
-            <p>5. Hoe tevreden ben je over de mate van variëteit in de aangeboden leeractiviteiten bij 'Mijn Buuf'?</p>
+            <p>5. Hoe tevreden ben je over de leeractiviteiten bij 'Mijn Buuf'?</p>
             <input type="radio" name="1" value="keuze1"> Zeer ontevreden
             <input type="radio" name="2" value="keuze2"> Ontevreden
             <input type="radio" name="3" value="keuze3"> Neutraal
@@ -59,7 +69,7 @@
             <br><br>
             <input class='verder' type="submit" value="Verder">
         </form>
-        <form class='vragenlijst' action="../wonen/index.php" method="POST">
+        <form class='vragenlijst1' action="../wonen/index.php" method="POST">
             <input class ='terug' type="submit" value="Terug">
         </form>
 

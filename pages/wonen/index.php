@@ -21,15 +21,21 @@
         <form class='vragenlijst' action="../werken/index.php" method="POST">
             <h2>Wonen</h2>
             <article class='vraag-row'>
-            <p>1. Voel je je veilig en comfortabel in je huidige woonomgeving?</p>
-            <input type="radio" name="Ja" value="keuze1"> Ja
-            <input type="radio" name="Nee" value="keuze2"> Nee
+            <p>1. Voel je je comfortabel in je huidige woonomgeving?</p>
+            <input type="radio" name="1" value="keuze1">  Helemaal niet
+            <input type="radio" name="2" value="keuze2">  Nee
+            <input type="radio" name="3" value="keuze3">  Een beetje
+            <input type="radio" name="4" value="keuze4">  Soms
+            <input type="radio" name="5" value="keuze5">  Ja
             </article>
 
             <article class='vraag-row'>
             <p>2. Heb je voldoende ruimte en privacy in je huis?</p>
-            <input type="radio" name="Ja" value="keuze1"> Ja
-            <input type="radio" name="Nee" value="keuze2"> Nee
+            <input type="radio" name="1" value="keuze1">  Helemaal niet
+            <input type="radio" name="2" value="keuze2">  Nee
+            <input type="radio" name="3" value="keuze3">  Een beetje
+            <input type="radio" name="4" value="keuze4">  Net genoeg
+            <input type="radio" name="5" value="keuze5">  Ja
             </article>
 
             <article class='vraag-row'>
@@ -51,15 +57,18 @@
             </article>
 
             <article class='vraag-row'>
-            <p>5. Heb je toegang tot essentiële voorzieningen zoals water, elektriciteit en verwarming?</p>
-            <input type="radio" name="Ja" value="keuze1"> Ja
-            <input type="radio" name="Nee" value="keuze2"> Nee
+            <p>5. Heb je toegang tot water, elektriciteit en verwarming?</p>
+            <input type="radio" name="1" value="keuze1">  Helemaal niet
+            <input type="radio" name="2" value="keuze2">  Nee
+            <input type="radio" name="3" value="keuze3">  Soms
+            <input type="radio" name="4" value="keuze4">  Vaak
+            <input type="radio" name="5" value="keuze5">  Ja
             </article>
 
             <br><br>
             <input class='verder' type="submit" value="Verder">
         </form>
-        <form class='vragenlijst' action="../taal/index.php" method="POST">
+        <form class='vragenlijst1' action="../taal/index.php" method="POST">
             <input class ='terug' type="submit" value="Terug">
         </form>
 

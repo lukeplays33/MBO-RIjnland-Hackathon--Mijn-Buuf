@@ -21,15 +21,21 @@
         <form class='vragenlijst' action="../Wonen/index.php" method="POST">
             <h2>Taal</h2>
             <article class='vraag-row'>
-            <p>1. Zie je vooruitgang in je taalvaardigheid sinds je deelneemt aan 'Mijn Buuf'?</p>
-            <input type="radio" name="Ja" value="keuze1"> Ja
-            <input type="radio" name="Nee" value="keuze2"> Nee
+            <p>1. Zie je vooruitgang in je taal sinds je deelneemt aan 'Mijn Buuf'?</p>
+            <input type="radio" name="1" value="keuze1">  Helemaal niet
+            <input type="radio" name="2" value="keuze2">  Nee
+            <input type="radio" name="3" value="keuze3">  Een beetje
+            <input type="radio" name="4" value="keuze4">  Ja
+            <input type="radio" name="5" value="keuze5">  Helemaal wel
             </article>
 
             <article class='vraag-row'>
-            <p>2. Voel je je zelfverzekerd bij het gebruik van de Nederlandse taal in verschillende situaties?</p>
-            <input type="radio" name="Ja" value="keuze1"> Ja
-            <input type="radio" name="Nee" value="keuze2"> Nee
+            <p>2. Voel je je zelfverzekerd bij het gebruik van de Nederlandse taal?</p>
+            <input type="radio" name="1" value="keuze1">  Helemaal niet
+            <input type="radio" name="2" value="keuze2">  Nee
+            <input type="radio" name="3" value="keuze3">  Neutraal
+            <input type="radio" name="4" value="keuze4">  Soms
+            <input type="radio" name="5" value="keuze5">  Ja
             </article>
 
             <article class='vraag-row'>
@@ -42,9 +48,12 @@
             </article>
 
             <article class='vraag-row'>
-            <p>4. Durf je vaker in het Nederlands te communiceren buiten de lessen?</p>
-            <input type="radio" name="vraag4" value="keuze1"> Ja
-            <input type="radio" name="vraag4" value="keuze2"> Nee
+            <p>4. Durf je vaker in het Nederlands te communiceren buiten Mijn Buuf?<p>
+            <input type="radio" name="1" value="keuze1">  Nee
+            <input type="radio" name="2" value="keuze2">  Meestal niet
+            <input type="radio" name="3" value="keuze3">  Een beetje
+            <input type="radio" name="4" value="keuze4">  Soms
+            <input type="radio" name="5" value="keuze5">  Ja
             </article>
 
             <article class='vraag-row'>
@@ -59,7 +68,7 @@
             <br><br>
             <input class='verder' type="submit" value="Verder">
         </form>
-        <form class='vragenlijst' action="../gezondheid/index.php" method="POST">
+        <form class='vragenlijst1' action="../gezondheid/index.php" method="POST">
             <input class ='terug' type="submit" value="Terug">
         </form>
 

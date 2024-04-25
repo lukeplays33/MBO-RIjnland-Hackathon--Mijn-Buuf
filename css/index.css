@@ -82,16 +82,21 @@ x-title {
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
     background-color: var(--primary);
     border-radius: 10px;
-    margin-left: 400px;
+    text-align: left;
+    margin-left: 250px;
     padding-left: 100px;
-    padding-right: 100px;
+    padding-right: 150px;
+}
+
+.vragenlijst1 {
+    margin-left: 400px;
 }
 
 .vragenlijst h2 {
-    margin-left: 135px;
+    margin-left: 250px;
 }
 .vragenlijst p {
-    margin-right: -300px;
+    margin-right: -125px;
 }
 
 .verder {

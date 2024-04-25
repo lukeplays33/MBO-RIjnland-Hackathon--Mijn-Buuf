@@ -21,39 +21,57 @@
         <form class='vragenlijst' action="../veiligheid/index.php" method="POST">
             <h2>Sociale Contacten</h2>
             <article class='vraag-row'>
-            <p>1. Heb je vrienden gemaakt binnen 'Mijn Buuf'?</p>
-            <input type="radio" name="Ja" value="keuze1"> Ja
-            <input type="radio" name="Nee" value="keuze2"> Nee
+            <p>1. Heb je vrienden gemaakt binnen 'Mijn Buuf'? Zo ja hoeveel?</p>
+            <input type="radio" name="1" value="keuze1">  Ik voel me nog niet comfortabel
+            <input type="radio" name="2" value="keuze2">  Nee
+            <input type="radio" name="3" value="keuze3">  Heb 1 vriend gemaakt
+            <input type="radio" name="4" value="keuze4">  Een aantal
+            <input type="radio" name="5" value="keuze5">  Heel veel
+            </article>
             </article>
 
             <article class='vraag-row'>
-            <p>2. Neem je deel aan sociale activiteiten buiten 'Mijn Buuf' met mede-statushouders of andere mensen?</p>
-            <input type="radio" name="Ja" value="keuze1"> Ja
-            <input type="radio" name="Nee" value="keuze2"> Nee
+            <p>2. Neem je deel aan sociale activiteiten buiten 'Mijn Buuf'?</p>
+            <input type="radio" name="1" value="keuze1">  Helemaal niet
+            <input type="radio" name="2" value="keuze2">  Zelden
+            <input type="radio" name="3" value="keuze3">  Soms
+            <input type="radio" name="4" value="keuze4">  Vaak
+            <input type="radio" name="5" value="keuze5">  Altijd Ja
+            </article>
             </article>
 
             <article class='vraag-row'>
-            <p>3. Voel je je op je gemak en welkom in de bredere gemeenschap waarin je woont?</p>
-            <input type="radio" name="Ja" value="keuze1"> Ja
-            <input type="radio" name="Nee" value="keuze2"> Nee
+            <p>3. Voel je je welkom in de gemeenschap waarin je woont?</p>
+            <input type="radio" name="1" value="keuze1">  Helemaal niet
+            <input type="radio" name="2" value="keuze2">  Nee
+            <input type="radio" name="3" value="keuze3">  Een beetje
+            <input type="radio" name="4" value="keuze4">  Soms
+            <input type="radio" name="5" value="keuze5">  Ja
+            </article>
             </article>
 
             <article class='vraag-row'>
-            <p>4. Heb je toegang tot ondersteuningssystemen voor sociale integratie buiten 'Mijn Buuf'?</p>
-            <input type="radio" name="Ja" value="keuze1"> Ja
-            <input type="radio" name="Nee" value="keuze2"> Nee
+            <p>4. Heb je toegang tot sociale ondersteuning buiten 'Mijn Buuf'?</p>
+            <input type="radio" name="1" value="keuze1">  Nee
+            <input type="radio" name="2" value="keuze2">  Zelden
+            <input type="radio" name="3" value="keuze3">  Een beetje
+            <input type="radio" name="4" value="keuze4">  Soms
+            <input type="radio" name="5" value="keuze5">  Ja
             </article>
 
             <article class='vraag-row'>
             <p>5. Voel je je gesteund door je mede-deelnemers bij 'Mijn Buuf'??</p>
-            <input type="radio" name="Ja" value="keuze1"> Ja
-            <input type="radio" name="Nee" value="keuze2"> Nee
+            <input type="radio" name="1" value="keuze1">  Helemaal niet
+            <input type="radio" name="2" value="keuze2">  Niet vaak
+            <input type="radio" name="3" value="keuze3">  Een beetje
+            <input type="radio" name="4" value="keuze4">  Soms
+            <input type="radio" name="5" value="keuze5">  Ja
             </article>
 
             <br><br>
             <input class='verder' type="submit" value="Verder">
         </form>
-        <form class='vragenlijst' action="../werken/index.php" method="POST">
+        <form class='vragenlijst1' action="../werken/index.php" method="POST">
             <input class ='terug' type="submit" value="Terug">
         </form>
 

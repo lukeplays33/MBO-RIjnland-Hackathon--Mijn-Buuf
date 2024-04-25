@@ -18,45 +18,60 @@
         <?php include '../../header.php'; ?>
     </header>
     <main>
-        <form class='vragenlijst' action="../veiligheid/index.php" method="POST">
+        <form class='vragenlijst' action="../werken/index.php" method="POST">
             <h2>Veiligheid</h2>
             <article class='vraag-row'>
-            <p>1. Voelt u zich thuis of in de buurt veilig?</p>
-            <input type="radio" name="Ja" value="keuze1"> Ja
-            <input type="radio" name="Nee" value="keuze2"> Nee
+            <p>1. Voel u zich veilig als u op straat loopt?</p>
+            <input type="radio" name="vraag4" value="keuze1"> Helemaal niet
+            <input type="radio" name="vraag4" value="keuze2"> Nee
+            <input type="radio" name="vraag4" value="keuze3"> Neutraal
+            <input type="radio" name="vraag4" value="keuze4"> Ja
+            <input type="radio" name="vraag4" value="keuze5"> Zeker Ja
             </article>
 
             <article class='vraag-row'>
-            <p>2. Voelt u zich over het algemeen veilig tijdens uw wandelingen of over straat?</p>
-            <input type="radio" name="Ja" value="keuze1"> Ja
-            <input type="radio" name="Nee" value="keuze2"> Nee
+            <p>2. Voelt u zich veilig in uw leefomgeving?</p>
+            <input type="radio" name="vraag4" value="keuze1"> Helemaal niet
+            <input type="radio" name="vraag4" value="keuze2"> Nee
+            <input type="radio" name="vraag4" value="keuze3"> Neutraal
+            <input type="radio" name="vraag4" value="keuze4"> Ja
+            <input type="radio" name="vraag4" value="keuze5"> Zeker Ja
             </article>
 
             <article class='vraag-row'>
-            <p>3.  Voelt u zich veilig in Nederland?</p>
-            <input type="radio" name="Ja" value="keuze1"> Ja
-            <input type="radio" name="Nee" value="keuze2"> Nee
+            <p>3. Hoe tevreden bent u met de beveiliging in Nederland?</p>
+            <input type="radio" name="vraag3" value="keuze1"> Zeer ontevreden
+            <input type="radio" name="vraag3" value="keuze2"> Ontevreden
+            <input type="radio" name="vraag3" value="keuze3"> Neutraal
+            <input type="radio" name="vraag3" value="keuze4"> Tevreden
+            <input type="radio" name="vraag3" value="keuze5"> Zeer tevreden
+            </article>
 
             <article class='vraag-row'>
-            <p>4. Weet u hoe u de politie kan bellen tijdens noodgevallen?</p>
-            <input type="radio" name="Ja" value="keuze1"> Ja
-            <input type="radio" name="Nee" value="keuze2"> Nee
+            <p>4. Voelt u zich veilig in Nederland? </p>
+            <input type="radio" name="vraag4" value="keuze1"> Helemaal niet
+            <input type="radio" name="vraag4" value="keuze2"> Nee
+            <input type="radio" name="vraag4" value="keuze3"> Neutraal
+            <input type="radio" name="vraag4" value="keuze4"> Ja
+            <input type="radio" name="vraag4" value="keuze5"> Zeker Ja
+            </article>
 
             <article class='vraag-row'>
-            <p>5. Bent u tevreden met de beveiligingsdienst in Nederland? </p>
-            <input type="radio" name="vraag5" value="keuze1"> Zeer ontevreden
-            <input type="radio" name="vraag5" value="keuze2"> Ontevreden
-            <input type="radio" name="vraag5" value="keuze3"> Neutraal
-            <input type="radio" name="vraag5" value="keuze4"> Tevreden
-            <input type="radio" name="vraag5" value="keuze5"> Zeer tevreden
+            <p>5. Voelt u zich veilig in 'Mijn Buuf'?</p>
+            <input type="radio" name="vraag4" value="keuze1"> Nee
+            <input type="radio" name="vraag4" value="keuze2"> Nee
+            <input type="radio" name="vraag4" value="keuze3"> Neutraal
+            <input type="radio" name="vraag4" value="keuze4"> Ja
+            <input type="radio" name="vraag4" value="keuze5"> Zeker Ja
             </article>
 
             <br><br>
             <input class='verder' type="submit" value="Verder">
         </form>
-        <form class='vragenlijst' action="../sociale contacten/index.php" method="POST">
+        <form class='vragenlijst1' action="../taal/index.php" method="POST">
             <input class ='terug' type="submit" value="Terug">
         </form>
+
 
     </main>
 
