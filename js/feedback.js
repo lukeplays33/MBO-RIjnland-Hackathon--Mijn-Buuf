@@ -166,7 +166,18 @@ let replies = {
         17: "", // empty
         18: "", // empty
         19: "", // empty
-    }
+    },
+    1: {
+        1: "Zoek iemand die je vertrouwd en met wie je kan praten, ga eventueel het huis uit.",
+        2: "",
+
+        3: "Zorg voor items die je meer privacy kunnen geven zoals b.v. een doek om je af te schermen tijdens het omkleeden of zet een wachtwoord op je telefoon.",
+        4: "",
+    },
+    2:{},
+    3:{},
+    4:{},
+    5:{}
 }
 
 // Sample dataset
@@ -196,13 +207,18 @@ net.train([
     { input: [0, 50, 12], output: { 17: 1 } },
     { input: [0, 50, 16], output: { 18: 1 } },
     { input: [0, 50, 20], output: { 19: 1 } },
+
+    { input: [1, 10, 20], output: { 1: 1 } },
+    { input: [1, 10, 0], output: { 2: 1 } },
+
+    { input: [1, 20, 20], output: { 3: 1 } },
+    { input: [1, 20, 0], output: { 4: 1 } },
 ]);
 
 for (i of Object.keys(testScores)) {
+    console.log(feedbackText.innerHTML)
     feedbackText.innerHTML = feedbackText.innerHTML + `<br><br><i><b>${i}:</b></i>
     <br><br>`;
-
-    new brain.NeuralNetwork();
 
     for (j of Object.keys(testScores[i])) {
         for (a of Object.keys(testScores[i][j])) {
@@ -215,10 +231,8 @@ for (i of Object.keys(testScores)) {
                     let text = feedbackText.innerHTML + j + ': ' + replies[Object.keys(testScores).indexOf(i)][d] + '<br>';
 
                     if (output[d] == Math.max(...Object.values(output))) {
-                        if(replies[Object.keys(testScores).indexOf(i)][d] == '') {
-                            console.log(text)
-                        } else {
-                        feedbackText.innerHTML = text;
+                        if (replies[Object.keys(testScores).indexOf(i)][d] == '') {} else {
+                            feedbackText.innerHTML = text;
                         }
                     }
                 }
