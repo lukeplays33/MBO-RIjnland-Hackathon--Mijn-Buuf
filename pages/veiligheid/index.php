@@ -18,7 +18,7 @@
         <?php include '../../header.php'; ?>
     </header>
     <main>
-        <form class='vragenlijst' action="../werken/index.php" method="POST">
+        <form class='vragenlijst' action="../../temp/resultate.php" method="POST">
             <h2>Veiligheid</h2>
             <article class='vraag-row'>
             <p>1. Voel u zich veilig als u op straat loopt?</p>
@@ -68,7 +68,7 @@
             <br><br>
             <input class='verder' type="submit" value="Verder">
         </form>
-        <form class='vragenlijst1' action="../../temp/resultate.php" method="POST">
+        <form class='vragenlijst1' action="../werken/index.php" method="POST">
             <input class ='terug' type="submit" value="Terug">
         </form>
 

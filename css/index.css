@@ -80,7 +80,7 @@ x-title {
 .vragenlijst {
     display: grid;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
-    background-color: var(--primary);
+    background-color: #D2DB90;
     border-radius: 10px;
     text-align: left;
     margin-left: 250px;
@@ -90,11 +90,14 @@ x-title {
 
 .vragenlijst1 {
     margin-left: 400px;
+    position: relative;
+    bottom: 22px;
+    left: 140px;
 }
 
 .vragenlijst h2 {
     margin-left: 250px;
-    background-color: var(--tertiary);
+    background-color: var(--primary);
 }
 
 .vragenlijst p {
