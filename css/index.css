@@ -94,6 +94,7 @@ x-title {
 
 .vragenlijst h2 {
     margin-left: 250px;
+    background-color: var(--tertiary);
 }
 .vragenlijst p {
     margin-right: -125px;
