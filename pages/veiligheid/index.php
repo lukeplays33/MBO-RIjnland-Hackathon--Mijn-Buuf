@@ -18,7 +18,7 @@
         <?php include '../../header.php'; ?>
     </header>
     <main>
-        <form class='vragenlijst' action="../../temp/resultate.php" method="POST">
+        <form class='vragenlijst' action="../../temp/resultaten.php" method="POST">
             <h2>Veiligheid</h2>
             <article class='vraag-row'>
             <p>1. Voel u zich veilig als u op straat loopt?</p>
