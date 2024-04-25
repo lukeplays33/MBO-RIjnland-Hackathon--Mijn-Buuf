@@ -125,13 +125,13 @@ x-title {
 
 
 #footerItems {
-    width: 100%;
+    width: calc(100% - 43px);
     height: 150px;
     border-radius: 27px;
     background-color: var(--primary);
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    margin: 40px 8px 8px 8px;
+    margin: 8px;
     padding-left: 144px;
     padding-right: 15px;
 }
@@ -345,7 +345,7 @@ p {
     white-space: pre-wrap;
     word-break: break-word;
 
-    overflow-y: hidden;
+    overflow-y: auto;
 }
 
 .staaf {
