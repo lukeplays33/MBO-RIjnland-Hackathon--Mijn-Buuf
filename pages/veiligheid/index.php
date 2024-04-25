@@ -68,7 +68,7 @@
             <br><br>
             <input class='verder' type="submit" value="Verder">
         </form>
-        <form class='vragenlijst1' action="../werken/index.php" method="POST">
+        <form class='vragenlijst1' action="../sociale contacten/index.php" method="POST">
             <input class ='terug' type="submit" value="Terug">
         </form>
 
