@@ -40,20 +40,20 @@
 
             <article class='vraag-row'>
             <p>3. Hoe tevreden ben je over de hygiëne en netheid van je huis?</p>
-            <input type="radio" name="vraag3" value="keuze1"> Zeer ontevreden
-            <input type="radio" name="vraag3" value="keuze2"> Ontevreden
-            <input type="radio" name="vraag3" value="keuze3"> Neutraal
-            <input type="radio" name="vraag3" value="keuze4"> Tevreden
-            <input type="radio" name="vraag3" value="keuze5"> Zeer tevreden
+            <input type="radio" name="1" value="keuze1"> Zeer ontevreden
+            <input type="radio" name="2" value="keuze2"> Ontevreden
+            <input type="radio" name="3" value="keuze3"> Neutraal
+            <input type="radio" name="4" value="keuze4"> Tevreden
+            <input type="radio" name="5" value="keuze5"> Zeer tevreden
             </article>
 
             <article class='vraag-row'>
             <p>4. Hoe gemakkelijk vind je het om je huur of hypotheek te betalen?</p>
-            <input type="radio" name="vraag4" value="keuze1"> Zeer moeilijk
-            <input type="radio" name="vraag4" value="keuze2"> Moeilijk
-            <input type="radio" name="vraag4" value="keuze3"> Neutraal
-            <input type="radio" name="vraag4" value="keuze4"> Gemakkelijk
-            <input type="radio" name="vraag4" value="keuze5"> Zeer gemakkelijk
+            <input type="radio" name="1" value="keuze1"> Zeer moeilijk
+            <input type="radio" name="2" value="keuze2"> Moeilijk
+            <input type="radio" name="3" value="keuze3"> Neutraal
+            <input type="radio" name="4" value="keuze4"> Gemakkelijk
+            <input type="radio" name="5" value="keuze5"> Zeer gemakkelijk
             </article>
 
             <article class='vraag-row'>
