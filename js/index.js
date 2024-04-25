@@ -4,5 +4,5 @@ let options = {
     themedFavIcon: false,
 }
 
-let pichai = new PichaiUX();
-pichai.initialize(options);
+let pichai = new PichaiUX(options);
+pichai.initialize();

@@ -77,6 +77,7 @@ x-title {
     padding: 0px !important;
 }
 
+
 .vragenlijst {
     display: grid;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
@@ -204,4 +205,139 @@ p {
     position: relative;
     left: 220px;
     top: 25px;
+
+.resultatenGrid {
+    margin: 8px;
+
+    display: grid;
+    grid-template-areas: 'feedback web'
+        'knoppen web';
+
+    grid-column-gap: 8px;
+}
+
+.feedback {
+    grid-area: feedback;
+    margin-bottom: 8px;
+
+    width: calc(50vw - 20px);
+    height: calc(87vh - 45.5px);
+
+    background-color: var(--tertiary) !important;
+}
+
+.knoppen {
+    grid-area: knoppen;
+
+    width: calc(50vw - 20px);
+    height: calc(13vh - 45.5px);
+
+    background-color: var(--tertiary) !important;
+
+    display: flex;
+    flex-direction: row;
+}
+
+.knoppen * {
+    width: calc(100% - 16px);
+
+    height: max-content;
+
+    color: var(--secondairyTextColor) !important;
+}
+
+#exporteer {
+    margin-right: 8px;
+    margin-left: 8px;
+}
+
+#opslaan {
+    margin-right: 8px;
+}
+
+.web {
+    grid-area: web;
+
+    width: calc(50vw - 20px);
+    height: calc(100vh - 83px);
+
+    background-color: var(--secondairy) !important;
+
+    overflow: hidden !important;
+
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+}
+
+.web h2 {
+    width: calc(100% - 32px);
+
+    color: var(--tertiaryTextColor);
+
+    background-color: var(--tertiary) !important;
+
+    border-radius: 10px;
+
+    margin-bottom: 8px;
+}
+
+#diagram {
+    width: calc(100% - 16px);
+    height: 90%;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-column-gap: 8px;
+    justify-content: flex-start;
+    align-items: flex-end;
+
+    padding: 8px;
+
+    background-image: url('../assetds/images/fd5e5b82-d730-440b-a1cb-7cdf9b9ebe6b_1.png');
+    background-size: initial !important;
+    background-position: 4.4% 7.5%;
+}
+
+.feedback {
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+
+    overflow-x:hidden !important;
+}
+
+.feedback h2 {
+    width: calc(100% - 32px);
+
+    color: var(--secondairyTextColor);
+
+    background-color: var(--secondairy) !important;
+
+    border-radius: 10px;
+
+    margin-bottom: 0px !important;
+}
+
+#feedbackText {
+    width:100%;
+    
+    text-align: center;
+
+    word-wrap: break-word;
+    white-space: pre-wrap;
+    word-break: break-word;
+}
+
+.staaf {
+    width: 100%;
+
+    writing-mode: vertical-lr;
+
+    color: var(--secondairyTextColor) !important;
+
 }
