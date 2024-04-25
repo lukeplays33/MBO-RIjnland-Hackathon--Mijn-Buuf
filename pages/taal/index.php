@@ -21,48 +21,48 @@
         <form class='vragenlijst' action="../Wonen/index.php" method="POST">
             <h2>Taal</h2>
             <article class='vraag-row'>
-            <p>1. Zie je vooruitgang in je taal sinds je deelneemt aan 'Mijn Buuf'?</p>
-            <input type="radio" name="1" value="keuze1">  Helemaal niet
-            <input type="radio" name="2" value="keuze2">  Nee
-            <input type="radio" name="3" value="keuze3">  Een beetje
-            <input type="radio" name="4" value="keuze4">  Ja
-            <input type="radio" name="5" value="keuze5">  Helemaal wel
+            <div id="myDIV">Zie je vooruitgang in je taalvaardigheid sinds je deelneemt aan 'Mijn Buuf'?</div>
+            <input type="radio" name="1" value="keuze1">  😭
+            <input type="radio" name="2" value="keuze2">  😢
+            <input type="radio" name="3" value="keuze3">  😐
+            <input type="radio" name="4" value="keuze4">  😊
+            <input type="radio" name="5" value="keuze5">  😁
             </article>
 
             <article class='vraag-row'>
-            <p>2. Voel je je zelfverzekerd bij het gebruik van de Nederlandse taal?</p>
-            <input type="radio" name="1" value="keuze1">  Helemaal niet
-            <input type="radio" name="2" value="keuze2">  Nee
-            <input type="radio" name="3" value="keuze3">  Neutraal
-            <input type="radio" name="4" value="keuze4">  Soms
-            <input type="radio" name="5" value="keuze5">  Ja
+            <div id="myDIV2"> Voel je je zelfverzekerd bij het gebruik van de Nederlandse taal in verschillende situaties?</div>
+            <input type="radio" name="1" value="keuze6">  😭
+            <input type="radio" name="2" value="keuze7">  😢
+            <input type="radio" name="3" value="keuze8">  😐
+            <input type="radio" name="4" value="keuze9">  😊
+            <input type="radio" name="5" value="keuze10">  😁
             </article>
 
             <article class='vraag-row'>
-            <p>3. Hoe nuttig vind je de taalondersteuning die je krijgt buiten de lesuren?</p>
-            <input type="radio" name="1" value="keuze1"> Helemaal niet nuttig
-            <input type="radio" name="2" value="keuze2"> Niet nuttig
-            <input type="radio" name="3" value="keuze3"> Neutraal
-            <input type="radio" name="4" value="keuze4"> Nuttig
-            <input type="radio" name="5" value="keuze5"> Zeer nuttig
+            <div id="myDIV3"> Hoe nuttig vind je de taalondersteuning die je krijgt buiten de lesuren?</div>
+            <input type="radio" name="1" value="keuze11">  😭
+            <input type="radio" name="2" value="keuze12">  😢
+            <input type="radio" name="3" value="keuze13">  😐
+            <input type="radio" name="4" value="keuze14">  😊
+            <input type="radio" name="5" value="keuze15">  😁
             </article>
 
             <article class='vraag-row'>
-            <p>4. Durf je vaker in het Nederlands te communiceren buiten Mijn Buuf?<p>
-            <input type="radio" name="1" value="keuze1">  Nee
-            <input type="radio" name="2" value="keuze2">  Meestal niet
-            <input type="radio" name="3" value="keuze3">  Een beetje
-            <input type="radio" name="4" value="keuze4">  Soms
-            <input type="radio" name="5" value="keuze5">  Ja
+            <div id="myDIV4"> Durf je vaker in het Nederlands te communiceren buiten Mijn Buuf?</div>
+            <input type="radio" name="1" value="keuze16">  😭
+            <input type="radio" name="2" value="keuze17">  😢
+            <input type="radio" name="3" value="keuze18">  😐
+            <input type="radio" name="4" value="keuze19">  😊
+            <input type="radio" name="5" value="keuze20">  😁
             </article>
 
             <article class='vraag-row'>
-            <p>5. Hoe goed begrijp je de Nederlandse cultuur en gebruiken?</p>
-            <input type="radio" name="1" value="keuze1"> Zeer slecht
-            <input type="radio" name="2" value="keuze2"> Slecht
-            <input type="radio" name="3" value="keuze3"> Neutraal
-            <input type="radio" name="4" value="keuze4"> Goed
-            <input type="radio" name="5" value="keuze5"> Zeer goed
+            <div id="myDIV5"> Hoe goed begrijp je de Nederlandse cultuur en gebruiken?</div>
+            <input type="radio" name="1" value="keuze21">  😭
+            <input type="radio" name="2" value="keuze22">  😢
+            <input type="radio" name="3" value="keuze23">  😐
+            <input type="radio" name="4" value="keuze24">  😊
+            <input type="radio" name="5" value="keuze25">  😁
             </article>
 
             <br><br>
@@ -71,6 +71,29 @@
         <form class='vragenlijst1' action="../gezondheid/index.php" method="POST">
             <input class ='terug' type="submit" value="Terug">
         </form>
+
+        <p><button onclick=myFunction()>Translator</button></p>
+        <script>
+            function myFunction() {
+    var Y = document.getElementById("myDIV");
+  
+    if (Y.innerHTML === "Zie je vooruitgang in je taalvaardigheid sinds je deelneemt aan 'Mijn Buuf'?") {
+      Y.innerHTML = "هل لاحظت تقدمًا في مهاراتك اللغوية منذ مشاركتك في 'Mijn Buuf'";
+      document.getElementById("myDIV2").innerHTML = "هل تشعر بالثقة في استخدام اللغة الهولندية في مواقف مختلفة؟";
+      document.getElementById("myDIV3").innerHTML = "ما مدى فائدة الدعم اللغوي الذي تتلقاه خارج ساعات الدراسة؟";
+      document.getElementById("myDIV4").innerHTML = "هل تجرؤ على التواصل باللغة الهولندية في كثير من الأحيان خارج Mijn Buuf؟";
+      document.getElementById("myDIV5").innerHTML = "ما مدى فهمك للثقافة والعادات الهولندية؟";
+    } else {
+      Y.innerHTML = "Zie je vooruitgang in je taalvaardigheid sinds je deelneemt aan 'Mijn Buuf'?";
+      document.getElementById("myDIV2").innerHTML = "Voel je je zelfverzekerd bij het gebruik van de Nederlandse taal in verschillende situaties?";
+      document.getElementById("myDIV3").innerHTML = "Hoe nuttig vind je de taalondersteuning die je krijgt buiten de lesuren?";
+      document.getElementById("myDIV4").innerHTML = "Durf je vaker in het Nederlands te communiceren buiten Mijn Buuf?";
+      document.getElementById("myDIV5").innerHTML = "Hoe goed begrijp je de Nederlandse cultuur en gebruiken?";
+    }
+  }
+
+
+        </script>
 
 
     </main>
@@ -81,6 +104,8 @@
 
     <script type='module' src='../../js/index.js'></script>
     <script type='module' src='../../js/reader.js'></script>
+    <script type='module' src='../../js/translate.js'></script>
 </body>
 
 </html>
+

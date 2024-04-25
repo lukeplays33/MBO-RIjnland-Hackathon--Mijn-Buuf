@@ -22,47 +22,47 @@
             <h2>Wonen</h2>
             <article class='vraag-row'>
             <p>1. Voel je je comfortabel in je huidige woonomgeving?</p>
-            <input type="radio" name="1" value="keuze1">  Helemaal niet
-            <input type="radio" name="2" value="keuze2">  Nee
-            <input type="radio" name="3" value="keuze3">  Een beetje
-            <input type="radio" name="4" value="keuze4">  Soms
-            <input type="radio" name="5" value="keuze5">  Ja
+            <input type="radio" name="1" value="keuze1">  😭
+            <input type="radio" name="2" value="keuze2">  😢
+            <input type="radio" name="3" value="keuze3">  😐
+            <input type="radio" name="4" value="keuze4">  😊
+            <input type="radio" name="5" value="keuze5">  😁
             </article>
 
             <article class='vraag-row'>
             <p>2. Heb je voldoende ruimte en privacy in je huis?</p>
-            <input type="radio" name="1" value="keuze1">  Helemaal niet
-            <input type="radio" name="2" value="keuze2">  Nee
-            <input type="radio" name="3" value="keuze3">  Een beetje
-            <input type="radio" name="4" value="keuze4">  Net genoeg
-            <input type="radio" name="5" value="keuze5">  Ja
+            <input type="radio" name="1" value="keuze6">  😭
+            <input type="radio" name="2" value="keuze7">  😢
+            <input type="radio" name="3" value="keuze8">  😐
+            <input type="radio" name="4" value="keuze9">  😊
+            <input type="radio" name="5" value="keuze10">  😁
             </article>
 
             <article class='vraag-row'>
             <p>3. Hoe tevreden ben je over de hygiëne en netheid van je huis?</p>
-            <input type="radio" name="1" value="keuze1"> Zeer ontevreden
-            <input type="radio" name="2" value="keuze2"> Ontevreden
-            <input type="radio" name="3" value="keuze3"> Neutraal
-            <input type="radio" name="4" value="keuze4"> Tevreden
-            <input type="radio" name="5" value="keuze5"> Zeer tevreden
+            <input type="radio" name="1" value="keuze11">  😭
+            <input type="radio" name="2" value="keuze12">  😢
+            <input type="radio" name="3" value="keuze13">  😐
+            <input type="radio" name="4" value="keuze14">  😊
+            <input type="radio" name="5" value="keuze15">  😁
             </article>
 
             <article class='vraag-row'>
             <p>4. Hoe gemakkelijk vind je het om je huur of hypotheek te betalen?</p>
-            <input type="radio" name="1" value="keuze1"> Zeer moeilijk
-            <input type="radio" name="2" value="keuze2"> Moeilijk
-            <input type="radio" name="3" value="keuze3"> Neutraal
-            <input type="radio" name="4" value="keuze4"> Gemakkelijk
-            <input type="radio" name="5" value="keuze5"> Zeer gemakkelijk
+            <input type="radio" name="1" value="keuze16">  😭
+            <input type="radio" name="2" value="keuze17">  😢
+            <input type="radio" name="3" value="keuze18">  😐
+            <input type="radio" name="4" value="keuze19">  😊
+            <input type="radio" name="5" value="keuze20">  😁
             </article>
 
             <article class='vraag-row'>
             <p>5. Heb je toegang tot water, elektriciteit en verwarming?</p>
-            <input type="radio" name="1" value="keuze1">  Helemaal niet
-            <input type="radio" name="2" value="keuze2">  Nee
-            <input type="radio" name="3" value="keuze3">  Soms
-            <input type="radio" name="4" value="keuze4">  Vaak
-            <input type="radio" name="5" value="keuze5">  Ja
+            <input type="radio" name="1" value="keuze21">  😭
+            <input type="radio" name="2" value="keuze22">  😢
+            <input type="radio" name="3" value="keuze23">  😐
+            <input type="radio" name="4" value="keuze24">  😊
+            <input type="radio" name="5" value="keuze25">  😁
             </article>
 
             <br><br>
@@ -71,7 +71,7 @@
         <form class='vragenlijst1' action="../taal/index.php" method="POST">
             <input class ='terug' type="submit" value="Terug">
         </form>
-
+        
 
     </main>
 
