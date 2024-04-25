@@ -3,7 +3,7 @@
     <article id="tiles"></article>
     <article class="logo">
         <a href="/" class="">
-            <img src="../../images/icon.png" alt="Logo" style="margin-left: -16px;">
+            <img src="../../images/OIG4.jpeg" alt="Logo" style="margin-left: -16px;">
         </a>
     </article>
 </section>
