@@ -9,12 +9,12 @@
 </section>
 
 <section id="footerItems">
-    <article>
+    <article class='adres'>
       Wilhelmina van Pruisenweg 55, 2595 AN Den Haag
     </article>
 
     <article>
-        <a href="mijnbuuf.nl">Oficiele Website</a>
+        <a target='_blank' href="https://mijnbuuf.nl/">Officiële Website</a>
         <a href="#">Meer info</a>
         <a href="#">Enquete</a>
     </article>

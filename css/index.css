@@ -1,23 +1,23 @@
-
-body, html {
-    background-image:url('../assetds/images/image (3).png');
-    background-color :var(--primary); 
-    background-color :var(--primaryTextColor);
+body,
+html {
+    background-image: url('../assetds/images/image (3).png');
+    background-color: var(--primary);
+    background-color: var(--primaryTextColor);
 }
 
 #headerLogo {
-    width:60px;
-    height:60px;
+    width: 60px;
+    height: 60px;
 
-    border-radius:300px;
+    border-radius: 300px;
 
-    border-color:var(--primary);
-    border-width:5px;
+    border-color: var(--primary);
+    border-width: 5px;
 }
 
 header {
-    width:calc(100% - 56px) !important;
-    background-color:var(--primary);
+    width: calc(100% - 56px) !important;
+    background-color: var(--primary);
     color: var(--primaryTextColor);
     padding: 20px;
     display: grid;
@@ -40,7 +40,7 @@ header img {
 }
 
 nav {
-    margin-top:8px;
+    margin-top: 8px;
     display: flex;
 }
 
@@ -60,21 +60,21 @@ nav li {
 }
 
 .logo {
-    top:30px;
-    position:absolute;
+    top: 30px;
+    position: absolute;
     width: 50px;
     margin-top: -12px;
     border-radius: 200px;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-left:33px;
+    margin-left: 33px;
 }
 
 x-title {
-    margin-left:98px !important;
+    margin-left: 98px !important;
 
-    padding:0px !important;
+    padding: 0px !important;
 }
 
 .vragenlijst {
@@ -90,6 +90,7 @@ x-title {
 .vragenlijst h2 {
     margin-left: 135px;
 }
+
 .vragenlijst p {
     margin-right: -300px;
 }
@@ -111,11 +112,17 @@ x-title {
     grid-template-columns: 1fr 1fr 1fr;
     margin: 40px 8px 8px 8px;
     padding-left: 144px;
+    padding-right: 15px;
 }
 
 #footerItems a {
+    margin-top: 20px;
     color: white;
     text-decoration: none;
+}
+
+#footerItems .adres{
+ margin-top: 60px;
 }
 
 #footerItems article {
@@ -127,58 +134,65 @@ x-title {
 
 footer .logo {
     width: fit-content;
-
     background-color: TRANSPARENT;
-
     margin-top: -80px;
 }
 
 
 img {
-    width: 400px;
+    width: 600px;
     height: 430px;
     margin-top: 10px;
     margin-left: 10px;
     border-radius: 10px;
-    
+
 }
 
-.grid-row > article > p {
+.grid-section {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+    gap: 20px;
+    margin-left: 10px;
+}
+
+.grid-section>article>p {
+    background-color: #D2DB90;
+    border-radius: 10px;
+    padding-top: 5px;
+    width: 800px;
+    height: 185px;
+}
+
+.grid-section>article>h2 {
     background-color: var(--primary);
     border-radius: 10px;
 }
 
-.grid-row > article > h2 {
+.Home-txt>h2 {
     background-color: var(--primary);
     border-radius: 10px;
-    margin-left : 100px;
-}
-
-.margin-position {
-    margin-left: 1050px;
-    margin-bottom: -20px !important;
-}
-
-.grid-row {
-    margin-left: 150px;
-    margin-bottom: 8px;
-}
-
-.grid-column {
-    margin-left: -50px;
-    margin-bottom: 8px;
-}
-
-.grid-column > h2 {
-    background-color: var(--primary);
-    border-radius: 10px;
-    margin-left : 150px;
 }
 
 p {
     font-size: larger;
 }
 
-.margin-position > article > h2 {
-    background-color: var(--primary);
+.Lijst-start{
+    margin-top: 75px;
+    background-color: #9B6BBC;
+    color: white;
+    width: 650px;
+    height: 190px;
+}
+
+.Lijst-start>h2>a{  
+    background-color: #D2DB90;
+    color: black;
+    text-decoration: none;
+    padding: 10px;
+    font-size: 50px;
+    position: relative;
+    left: 220px;
+    top: 25px;
 }
