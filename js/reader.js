@@ -5,9 +5,9 @@ function opslaan(e) {
   const submitter = document.querySelector(".verder");
   const formData = new FormData(vragenlijst, submitter);
 
-  const output = document.getElementById("output");
+const output = document.getElementById("output");
 
-  for (const [key, value] of formData) {
-    output.textContent += `${key}: ${value}\n`;
-  }
+for (const [key, value] of formData) {
+  output.textContent += `${key}: ${value}\n`;
+} 
 }
