@@ -36,7 +36,7 @@
                     <div class='staaf' id='Gezondheid'>Gezondheid</div>
                     <div class='staaf' id='Wonen'>Wonen</div>
                     <div class='staaf' id='Werken'>Werken</div>
-                    <div class='staaf' id='SocialeContacten'>SocialeContacten</div>
+                    <div class='staaf' id='SocialeContacten'>Sociale Contacten</div>
                     <div class='staaf' id='Taal'>Taal</div>
                     <div class='staaf' id='Veiligheid'>Veiligheid</div>
                 </article>
