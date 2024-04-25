@@ -309,6 +309,7 @@ p {
     align-items: center;
 
     overflow-x:hidden !important;
+    overflow-y:auto !important;
 }
 
 .feedback h2 {
@@ -325,12 +326,15 @@ p {
 
 #feedbackText {
     width:100%;
-    
+    height:100%;
+
     text-align: center;
 
     word-wrap: break-word;
     white-space: pre-wrap;
     word-break: break-word;
+
+    overflow-y: hidden;
 }
 
 .staaf {
