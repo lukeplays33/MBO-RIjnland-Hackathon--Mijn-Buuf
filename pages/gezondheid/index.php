@@ -64,9 +64,8 @@
             <input type="radio" name="vraag5" value="keuze4">  Regelmatig
             <input type="radio" name="vraag5" value="keuze5">  Dagelijks
             </article>
-
             <br><br>
-            <input class='verder' type="submit" value="Verder">
+            <button class="verder" onclick="Opslaan">Verder</button>
         </form>
         <form class='vragenlijst1' action="../../index.php" method="POST">
             <input class ='terug' type="submit" value="Home">
@@ -80,6 +79,7 @@
     </footer>
 
     <script type='module' src='../../js/index.js'></script>
+    <script type='module' src='../../js/reader.js'></script>
 </body>
 
 </html>
